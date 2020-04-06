@@ -18,5 +18,26 @@
       "family": "Himmelstein"
     }
   ]
+},
+{
+  "id": "url:who_sit_rep",
+  "type": "report",
+  "URL": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200405-sitrep-76-covid-19.pdf?sfvrsn=6ecf0977_2",
+  "title": "Coronavirus disease 2019 (COVID-19) Situation Report – 76",
+  "container-title": "WHO Coronavirus disease 2019 situation reports",
+  "issued": {
+    "date-parts": [
+      [
+        2020,
+        4,
+        5
+      ]
+    ]
+  },
+  "author": [
+    {
+      "literal": "World Health Organization"
+    }
+  ]
 }
 ]
