@@ -1,18 +1,19 @@
 {
   "pandoc": {
-    "title": "Manuscript Title",
+    "title": "The effect of blood type on COVID-19 infection, intubation, and death",
     "keywords": [
-      "markdown",
-      "publishing",
-      "manubot"
+      "covid-19",
+      "coronavirus",
+      "blood type",
+      "observational data",
+      "biomedical informatics"
     ],
     "lang": "en-US",
-    "date-meta": "2020-04-04",
+    "date-meta": "2020-04-06",
     "author-meta": [
-      "John Doe",
-      "Jane Roe"
+      "Michael Zietz"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Manuscript Title\" />\n<meta name=\"citation_title\" content=\"Manuscript Title\" />\n<meta property=\"og:title\" content=\"Manuscript Title\" />\n<meta property=\"twitter:title\" content=\"Manuscript Title\" />\n<meta name=\"dc.date\" content=\"2020-04-04\" />\n<meta name=\"citation_publication_date\" content=\"2020-04-04\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"John Doe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://zietzm.github.io/abo_covid/\" />\n<meta property=\"og:url\" content=\"https://zietzm.github.io/abo_covid/\" />\n<meta property=\"twitter:url\" content=\"https://zietzm.github.io/abo_covid/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://zietzm.github.io/abo_covid/\" />\n<meta name=\"citation_pdf_url\" content=\"https://zietzm.github.io/abo_covid/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://zietzm.github.io/abo_covid/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://zietzm.github.io/abo_covid/v/2317c64336709ac7e7eec977977a2fa70a599f5c/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://zietzm.github.io/abo_covid/v/2317c64336709ac7e7eec977977a2fa70a599f5c/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://zietzm.github.io/abo_covid/v/2317c64336709ac7e7eec977977a2fa70a599f5c/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"The effect of blood type on COVID-19 infection, intubation, and death\" />\n<meta name=\"citation_title\" content=\"The effect of blood type on COVID-19 infection, intubation, and death\" />\n<meta property=\"og:title\" content=\"The effect of blood type on COVID-19 infection, intubation, and death\" />\n<meta property=\"twitter:title\" content=\"The effect of blood type on COVID-19 infection, intubation, and death\" />\n<meta name=\"dc.date\" content=\"2020-04-06\" />\n<meta name=\"citation_publication_date\" content=\"2020-04-06\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Michael Zietz\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Informatics, Columbia University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0539-630X\" />\n<meta name=\"twitter:creator\" content=\"@ZietzMichael\" />\n<link rel=\"canonical\" href=\"https://zietzm.github.io/abo_covid/\" />\n<meta property=\"og:url\" content=\"https://zietzm.github.io/abo_covid/\" />\n<meta property=\"twitter:url\" content=\"https://zietzm.github.io/abo_covid/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://zietzm.github.io/abo_covid/\" />\n<meta name=\"citation_pdf_url\" content=\"https://zietzm.github.io/abo_covid/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://zietzm.github.io/abo_covid/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://zietzm.github.io/abo_covid/v/10f087fe26a682e060cec6bbb02f3f29c0ce0efc/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://zietzm.github.io/abo_covid/v/10f087fe26a682e060cec6bbb02f3f29c0ce0efc/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://zietzm.github.io/abo_covid/v/10f087fe26a682e060cec6bbb02f3f29c0ce0efc/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -22,47 +23,28 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "April 4, 2020",
+    "date": "April 6, 2020",
     "authors": [
       {
-        "github": "johndoe",
-        "name": "John Doe",
-        "initials": "JD",
-        "orcid": "XXXX-XXXX-XXXX-XXXX",
-        "twitter": "johndoe",
-        "email": "john.doe@something.com",
+        "github": "zietzm",
+        "name": "Michael Zietz",
+        "initials": "MZ",
+        "orcid": "0000-0003-0539-630X",
+        "twitter": "ZietzMichael",
+        "email": "michael.zietz@gmail.com",
         "affiliations": [
-          "Department of Something, University of Whatever"
+          "Department of Biomedical Informatics, Columbia University"
         ],
         "funders": "Grant XXXXXXXX",
         "affiliation_numbers": [
           1
         ]
-      },
-      {
-        "github": "janeroe",
-        "name": "Jane Roe",
-        "initials": "JR",
-        "orcid": "XXXX-XXXX-XXXX-XXXX",
-        "email": "jane.roe@whatever.edu",
-        "affiliations": [
-          "Department of Something, University of Whatever",
-          "Department of Whatever, University of Something"
-        ],
-        "affiliation_numbers": [
-          1,
-          2
-        ]
       }
     ],
     "affiliations": [
       {
-        "affiliation": "Department of Something, University of Whatever",
+        "affiliation": "Department of Biomedical Informatics, Columbia University",
         "affiliation_number": 1
-      },
-      {
-        "affiliation": "Department of Whatever, University of Something",
-        "affiliation_number": 2
       }
     ],
     "ci_source": {
@@ -70,19 +52,19 @@
       "repo_slug": "zietzm/abo_covid",
       "repo_owner": "zietzm",
       "repo_name": "abo_covid",
-      "commit": "2317c64336709ac7e7eec977977a2fa70a599f5c",
-      "triggering_commit": "2317c64336709ac7e7eec977977a2fa70a599f5c",
-      "build_url": "https://github.com/zietzm/abo_covid/commit/2317c64336709ac7e7eec977977a2fa70a599f5c/checks",
+      "commit": "10f087fe26a682e060cec6bbb02f3f29c0ce0efc",
+      "triggering_commit": "10f087fe26a682e060cec6bbb02f3f29c0ce0efc",
+      "build_url": "https://github.com/zietzm/abo_covid/commit/10f087fe26a682e060cec6bbb02f3f29c0ce0efc/checks",
       "job_url": "https://github.com/zietzm/abo_covid/runs/run2"
     },
     "html_url": "https://zietzm.github.io/abo_covid/",
     "pdf_url": "https://zietzm.github.io/abo_covid/manuscript.pdf",
-    "html_url_versioned": "https://zietzm.github.io/abo_covid/v/2317c64336709ac7e7eec977977a2fa70a599f5c/",
-    "pdf_url_versioned": "https://zietzm.github.io/abo_covid/v/2317c64336709ac7e7eec977977a2fa70a599f5c/manuscript.pdf",
+    "html_url_versioned": "https://zietzm.github.io/abo_covid/v/10f087fe26a682e060cec6bbb02f3f29c0ce0efc/",
+    "pdf_url_versioned": "https://zietzm.github.io/abo_covid/v/10f087fe26a682e060cec6bbb02f3f29c0ce0efc/manuscript.pdf",
     "manubot_version": "0.3.1",
     "rootstock_commit": "7c0f9c30fe03a6e264e19d08f2337266a4ea3e3e",
     "manuscript_stats": {
-      "word_count": 245
+      "word_count": 4017
     }
   }
 }

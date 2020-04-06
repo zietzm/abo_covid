@@ -4,11 +4,10 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="John Doe" />
-  <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2020-04-04" />
-  <meta name="keywords" content="markdown, publishing, manubot" />
-  <title>Manuscript Title</title>
+  <meta name="author" content="Michael Zietz" />
+  <meta name="dcterms.date" content="2020-04-06" />
+  <meta name="keywords" content="covid-19, coronavirus, blood type, observational data, biomedical informatics" />
+  <title>The effect of blood type on COVID-19 infection, intubation, and death</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -25,35 +24,31 @@
   Suggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2020-04-04" />
-  <meta name="citation_publication_date" content="2020-04-04" />
+  <meta name="dc.title" content="The effect of blood type on COVID-19 infection, intubation, and death" />
+  <meta name="citation_title" content="The effect of blood type on COVID-19 infection, intubation, and death" />
+  <meta property="og:title" content="The effect of blood type on COVID-19 infection, intubation, and death" />
+  <meta property="twitter:title" content="The effect of blood type on COVID-19 infection, intubation, and death" />
+  <meta name="dc.date" content="2020-04-06" />
+  <meta name="citation_publication_date" content="2020-04-06" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Michael Zietz" />
+  <meta name="citation_author_institution" content="Department of Biomedical Informatics, Columbia University" />
+  <meta name="citation_author_orcid" content="0000-0003-0539-630X" />
+  <meta name="twitter:creator" content="@ZietzMichael" />
   <link rel="canonical" href="https://zietzm.github.io/abo_covid/" />
   <meta property="og:url" content="https://zietzm.github.io/abo_covid/" />
   <meta property="twitter:url" content="https://zietzm.github.io/abo_covid/" />
   <meta name="citation_fulltext_html_url" content="https://zietzm.github.io/abo_covid/" />
   <meta name="citation_pdf_url" content="https://zietzm.github.io/abo_covid/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://zietzm.github.io/abo_covid/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://zietzm.github.io/abo_covid/v/2317c64336709ac7e7eec977977a2fa70a599f5c/" />
-  <meta name="manubot_html_url_versioned" content="https://zietzm.github.io/abo_covid/v/2317c64336709ac7e7eec977977a2fa70a599f5c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://zietzm.github.io/abo_covid/v/2317c64336709ac7e7eec977977a2fa70a599f5c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://zietzm.github.io/abo_covid/v/10f087fe26a682e060cec6bbb02f3f29c0ce0efc/" />
+  <meta name="manubot_html_url_versioned" content="https://zietzm.github.io/abo_covid/v/10f087fe26a682e060cec6bbb02f3f29c0ce0efc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://zietzm.github.io/abo_covid/v/10f087fe26a682e060cec6bbb02f3f29c0ce0efc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,43 +58,1212 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Manuscript Title</h1>
+<h1 class="title">The effect of blood type on COVID-19 infection, intubation, and death</h1>
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://zietzm.github.io/abo_covid/v/2317c64336709ac7e7eec977977a2fa70a599f5c/">permalink</a>)
+(<a href="https://zietzm.github.io/abo_covid/v/10f087fe26a682e060cec6bbb02f3f29c0ce0efc/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/zietzm/abo_covid/tree/2317c64336709ac7e7eec977977a2fa70a599f5c">zietzm/abo_covid@2317c64</a>
-on April 4, 2020.
+from <a href="https://github.com/zietzm/abo_covid/tree/10f087fe26a682e060cec6bbb02f3f29c0ce0efc">zietzm/abo_covid@10f087f</a>
+on April 6, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
-<li><p><strong>John Doe</strong><br>
+<li><strong>Michael Zietz</strong><br>
 <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
-<a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a>
+<a href="https://orcid.org/0000-0003-0539-630X">0000-0003-0539-630X</a>
 · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
-<a href="https://github.com/johndoe">johndoe</a>
+<a href="https://github.com/zietzm">zietzm</a>
 · <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" />
-<a href="https://twitter.com/johndoe">johndoe</a><br>
+<a href="https://twitter.com/ZietzMichael">ZietzMichael</a><br>
 <small>
-Department of Something, University of Whatever
+Department of Biomedical Informatics, Columbia University
 · Funded by Grant XXXXXXXX
-</small></p></li>
-<li><p><strong>Jane Roe</strong><br>
-<img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
-<a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a>
-· <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
-<a href="https://github.com/janeroe">janeroe</a><br>
-<small>
-Department of Something, University of Whatever; Department of Whatever, University of Something
-</small></p></li>
+</small></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
-<p>Test text</p>
+<p>The rapid global spread of the novel coronavirus SARS-CoV-2 has strained existing healthcare and testing resources, making the identification and prioritization of individuals most at-risk a critical challenge.
+A recent study of patients in China discovered an association between ABO blood type and SARS-CoV-2 infection status by comparing COVID-19 patients with the general population.
+Whether blood type is associated with increased COVID-19 morbidity or mortality remains unknown.
+We used observational healthcare data on 1559 individuals (682 COV+) with known blood type in the New York Presbyterian (NYP) hospital system to assess the association between ABO+Rh blood type and SARS-CoV-2 infection status, intubation, and death.
+We find associations between blood group and infection status, as well as different effects when stratifying by Rh blood group.
+In tests of individual blood groups, we find a higher proportion of blood group A and a lower proportion of blood group O among COVID-19 patients compared to those testing negative for the virus, though in both cases the result is significant only in Rh positive blood types.
+A meta-analysis of NYP data with previously reported data from China uncovered significantly increased B blood groups among COVID-19 patients.
+Our data did not provide strong evidence of associations between blood group and intubation or death among COVID-19 patients.
+While our results are based on preliminary observational data collected during the care of patients and should not be used to guide clinical practice, we find further evidence of recently-discovered associations between blood group and SARS-CoV-2 infection status and find new evidence of associations between B blood group and Rh blood groups and COVID-19.</p>
+<h2 id="background">Background</h2>
+<p>The novel Coronavirus disease (COVID-19) has rapidly spread across the globe and has caused over 1,130,000 confirmed infections and over 62,000 deaths worldwide as of April 5, 2020 <span class="citation" data-cites="MDWlwuhC">[<a href="#ref-MDWlwuhC" role="doc-biblioref">1</a>]</span>.
+A number of risk factors for COVID-19 infection, morbidity, and mortality are known, including age, sex, and a number of chronic conditions and laboratory findings <span class="citation" data-cites="10THxyeCg">[<a href="#ref-10THxyeCg" role="doc-biblioref">2</a>]</span>.
+Recently, a study on COVID-19 patients in Whuhan and Shenzhen, China discovered associations between ABO blood types and infection <span class="citation" data-cites="1DbV444Pj">[<a href="#ref-1DbV444Pj" role="doc-biblioref">3</a>]</span>.
+Their analysis compared blood groups between hospitalized COVID-19 patients and the general populations of Wuhan and Shenzhen City, as assessed by previously-published samples of healthy individuals.
+They found that the odds of testing positive for COVID-19 among A blood groups was increased and among O blood groups was decreased relative to the general population.
+Similarly, previous work has identified associations between ABO blood groups and a number of different infections or disease severity following infections, including SARS-CoV-1 <span class="citation" data-cites="18yiOVr39">[<a href="#ref-18yiOVr39" role="doc-biblioref">4</a>]</span>, <em>P. falciparum</em> <span class="citation" data-cites="BwRDGiQB">[<a href="#ref-BwRDGiQB" role="doc-biblioref">5</a>]</span>, <em>H. pylori</em><span class="citation" data-cites="gRvptytE">[<a href="#ref-gRvptytE" role="doc-biblioref">6</a>]</span>, Norwalk virus <span class="citation" data-cites="Cv4dHirC">[<a href="#ref-Cv4dHirC" role="doc-biblioref">7</a>]</span>, hepatitis B virus <span class="citation" data-cites="cRoyxlfx">[<a href="#ref-cRoyxlfx" role="doc-biblioref">8</a>]</span>, and <em>N. gonorrhoeae</em> <span class="citation" data-cites="3BxRla9h">[<a href="#ref-3BxRla9h" role="doc-biblioref">9</a>]</span>.</p>
+<p>Within the United States, New York City has become a major center of the pandemic, with over 64,000 cases and over 2,400 deaths as of April 5, 2020 <span class="citation" data-cites="LSRyVwrE">[<a href="#ref-LSRyVwrE" role="doc-biblioref">10</a>]</span>.
+We sought to replicate and extend the previous investigation into the association between COVID-19 and blood type using electronic health record data from the New York Presbyterian (NYP) hospital system in New York, USA.
+We compared both ABO and ABO+Rh blood types, and we investigated three COVID-19 outcomes: infection status, intubation, and death.</p>
+<h2 id="methods">Methods</h2>
+<p>We compared several combinations of blood group definition and COVID-19 outcomes.
+For blood groups, we considered either ABO alone or ABO+Rh.
+Outcomes were compared between four pairs of populations: COV+ vs COV-, COV+ vs general population (excluding those tested for COVID-19), COV+/Intubated vs COV+/Not intubated, and COV+/Deceased vs COV+/Alive.
+For each of the eight test conditions (2 blood group definitions and 4 outcome comparison population pairs), we performed a Pearson’s Chi-squared test to test whether blood group distributions differ between the compared populations.
+Additionally, we compared each blood group against all others using a 2x2 contingency table to determine effect sizes for each blood group itself.
+For the one-vs-rest blood group comparisons, we report odds ratios (OR), p-values from Fisher’s exact test (two-sided), and odds ratio confidence intervals.</p>
+<p>We also performed a meta-analysis using our data in combination with data from Wuhan and Shenzhen reported by Zhao et al. <span class="citation" data-cites="1DbV444Pj">[<a href="#ref-1DbV444Pj" role="doc-biblioref">3</a>]</span>.
+These analyses used a random effects model to create pooled estimates of odds ratios for each ABO blood group in comparisons between COV+ individuals and the general populations of New York, Wuhan, and Shenzhen.</p>
+<p>Individuals with a single positive COVID-19 test were considered COVID+, even if they had previous or subsequent negative COVID tests.
+Blood group was identified using either a measurement of LOINC code 34474-7, “ABO and Rh group [Type] in Cord blood,” or the results of a procedure identified by one of the names listed in Table <a href="#tbl:blood_group_names">4</a>.
+We excluded individuals with multiple contradictory blood group measurements.
+The distribution of blood groups in the general population was estimated using blood group lab results on 108,929 individuals recorded in the NYP electronic health record (EHR) system between May 2011 and June 2019, excluding results for any individuals later tested for COVID-19 (regardless of result).</p>
+<p>We considered EHR data up to April 5, 2020.
+Our analyses were conducted using the R language, and we used the <code>meta</code> package <span class="citation" data-cites="oirgcbj3">[<a href="#ref-oirgcbj3" role="doc-biblioref">11</a>]</span> for meta-analysis.
+While our data from NYP are protected by HIPAA and cannot be released, we have released all code used for our analysis at <a href="https://github.com/zietzm/abo_covid_analysis" class="uri">https://github.com/zietzm/abo_covid_analysis</a>.
+The manuscript was written <a href="https://github.com/zietzm/abo_covid_analysis">openly on GitHub</a> using the Manubot software <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">12</a>]</span>.</p>
+<h2 id="results">Results</h2>
+<p>We first determined blood groups for COVID-tested individuals using laboratory measurements recorded in the NYP EHR system.
+One individual with multiple contradictory blood group measurements was excluded, resulting in 1,559 individuals with known blood groups who received a COVID-19 test (either positive or negative result).
+Of these, 682 were COV+ (positive in at least one COVID-19 test) and 877 were COV- (negative in all COVID-19 tests administered).
+Among the COV+ individuals, 179 were intubated and 80 had died, while the remaining individuals had not been intubated and remained alive as of April 5, 2020.
+We found that 354 tested COV- individuals were intubated during the same time, though we did not include them in any analysis.</p>
+<p>We compared blood group (defined as ABO or ABO+Rh) between the four comparison cohorts and report counts in Table <a href="#tbl:combined_counts">5</a>.
+For each comparison cohort pair, we performed chi-squared tests using both ABO and ABO+Rh blood types (Table <a href="#tbl:combined_chisq">1</a>).
+Since there were no AB-negative individuals testing positive for COVID-19, we excluded AB-negative from all ABO+Rh analyses.
+Finally, we conducted individual tests of each blood type against all others for each of the COVID-19 outcomes we considered (Full data in Table <a href="#tbl:combined_fisher">6</a>).</p>
+<p>We found associations between COVID-19 status and both ABO (p=0.006) and ABO+Rh (p=0.031) blood groups in a comparison between individuals testing positive vs testing negative (Tables <a href="#tbl:combined_chisq">1</a>, <a href="#tbl:pos_neg_fisher">2</a>).
+A blood groups were associated with increased odds of testing positive for COVID-19 (OR 1.338, p=0.009), while O blood groups were associated with decreased odds of testing positive (OR 0.790, p=0.036).
+While few individuals with AB blood groups were included (21 COV+, 47 COV-), we also found AB blood groups to be associated with decreased odds of testing positive (OR 0.561, p=0.033).
+When we tested individual ABO+Rh blood groups against all others, we discovered that strong associations are only found in Rh positive blood groups (Tables <a href="#tbl:pos_neg_fisher">2</a>, <a href="#tbl:combined_fisher">6</a>).</p>
+<div id="tbl:combined_chisq" class="tablenos">
+<table>
+<caption><span>Table 1:</span> Summary of chi-squared tests for association between blood type and COVID-19 outcomes. “df” indicates the degrees of freedom; ABO used a 4x2 table for each test, while ABO+Rh used a 6x2 table for each test, resulting in 3 and 5 degrees of freedom, respectively. </caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Blood group type</th>
+<th style="text-align: left;">Comparison groups</th>
+<th style="text-align: left;">Chi-squared</th>
+<th style="text-align: left;">df</th>
+<th style="text-align: left;">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+ vs general population</td>
+<td style="text-align: left;">5.288</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">0.152</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+ vs general population</td>
+<td style="text-align: left;">9.129</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">0.166</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+ vs COV-</td>
+<td style="text-align: left;">12.295</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;"><strong>0.006</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+ vs COV-</td>
+<td style="text-align: left;">13.882</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;"><strong>0.031</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+/Intubated vs COV+/Not intubated</td>
+<td style="text-align: left;">3.493</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">0.322</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+/Intubated vs COV+/Not intubated</td>
+<td style="text-align: left;">5.844</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">0.441</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+/Died vs COV+/Alive</td>
+<td style="text-align: left;">3.190</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">0.363</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+/Died vs COV+/Alive</td>
+<td style="text-align: left;">7.431</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">0.283</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="tbl:pos_neg_fisher" class="tablenos">
+<table>
+<caption><span>Table 2:</span> Summary of one-vs-rest analysis for a comparison of COV+ vs COV- individuals. Each test compares the listed blood group to all other blood groups (combined) between the COV+ and COV- individuals. P-values computed using Fisher’s exact test. </caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Blood group</th>
+<th style="text-align: left;">Blood group type</th>
+<th style="text-align: left;">OR</th>
+<th style="text-align: left;">95% CI</th>
+<th style="text-align: left;">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">1.338</td>
+<td style="text-align: left;">1.072 - 1.672</td>
+<td style="text-align: left;"><strong>0.009</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A-negative</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">0.832</td>
+<td style="text-align: left;">0.42 - 1.608</td>
+<td style="text-align: left;">0.641</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">1.382</td>
+<td style="text-align: left;">1.099 - 1.737</td>
+<td style="text-align: left;"><strong>0.004</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AB</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">0.561</td>
+<td style="text-align: left;">0.315 - 0.969</td>
+<td style="text-align: left;"><strong>0.033</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AB-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">0.628</td>
+<td style="text-align: left;">0.35 - 1.097</td>
+<td style="text-align: left;">0.093</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">1.117</td>
+<td style="text-align: left;">0.843 - 1.477</td>
+<td style="text-align: left;">0.446</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">B-negative</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">0.636</td>
+<td style="text-align: left;">0.216 - 1.695</td>
+<td style="text-align: left;">0.381</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">1.169</td>
+<td style="text-align: left;">0.874 - 1.563</td>
+<td style="text-align: left;">0.282</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">O</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">0.804</td>
+<td style="text-align: left;">0.654 - 0.987</td>
+<td style="text-align: left;"><strong>0.036</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">O-negative</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">1.034</td>
+<td style="text-align: left;">0.548 - 1.93</td>
+<td style="text-align: left;">1.000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">O-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">0.790</td>
+<td style="text-align: left;">0.642 - 0.971</td>
+<td style="text-align: left;"><strong>0.024</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="meta-analysis">Meta-analysis</h3>
+<p>Finally, we compared our data from New York City to the data from Wuhan and Shenzhen presented by Zhao et al. <span class="citation" data-cites="1DbV444Pj">[<a href="#ref-1DbV444Pj" role="doc-biblioref">3</a>]</span> and conducted a meta-analysis using the data they report in combination with our NYP data.
+Zhao et al. used a random effects model to meta-analyze data between three different hospitals (Wuhan Jinyintan, Renmin Hospital in Wuhan, and Shenzhen Third People’s Hospital), comparing each hospital’s COV+ blood group distribution to the general population distribution for each city.
+We performed a similar analysis—including NYP data—to assess the effect of blood type in the combined data from all four sources (full counts in Table <a href="#tbl:abo_nyc_vs_china">7</a>).</p>
+<p>We found that the distribution of blood groups in the general population at NYP differs significantly from both the distributions in Shenzhen (Chi-squared = 2056, p-value &lt; 2.2e-16) and Wuhan (Chi-squared = 583.29, p-value &lt; 2.2e-16) (Table <a href="#tbl:abo_nyc_vs_china">7</a>).
+The difference in distributions is reflected in tests of heterogeneity between sites, where we find more heterogeneity between sites in our meta-analysis than Zhao et al.’s meta-analysis (Table <a href="#tbl:meta_heterogeneity">9</a>).</p>
+<p>We fit a random effects model for each ABO blood type using data from NYP and the three sources for which Zhao et al. report data.
+The overall associations between ABO blood groups and COVID-19 status that Zhao et al. identified (significantly increased COV+ odds for blood group A and decreased COV+ odds for blood group O) are replicated in our meta-analysis (Table <a href="#tbl:meta_odds">3</a>).
+Using the additional data from NYP, the pooled association between blood group B becomes larger in effect size and significant at the 5% level (original: OR 1.09, p=0.121; with NYP data: OR 1.25, p=0.0361).</p>
+<div id="tbl:meta_odds" class="tablenos">
+<table>
+<caption><span>Table 3:</span> Meta-analysis associations for individual ABO blood groups in comparisons of COV+ vs general population using a random effects model. Each blood group was compared against all others using data from NYP, and Zhao et al. (Wuhan Jinyintan, Renmin Hospital in Wuhan, and Shenzhen Third People’s Hospital). </caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Blood group</th>
+<th style="text-align: left;">OR</th>
+<th style="text-align: left;">95% CI</th>
+<th style="text-align: left;">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">1.1636</td>
+<td style="text-align: left;">1.0155 - 1.3333</td>
+<td style="text-align: left;"><strong>0.0291</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">1.1101</td>
+<td style="text-align: left;">1.0068 - 1.2240</td>
+<td style="text-align: left;"><strong>0.0361</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AB</td>
+<td style="text-align: left;">1.2519</td>
+<td style="text-align: left;">0.8384 - 1.8694</td>
+<td style="text-align: left;">0.2721</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">O</td>
+<td style="text-align: left;">0.7252</td>
+<td style="text-align: left;">0.5971 - 0.8807</td>
+<td style="text-align: left;"><strong>0.0012</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="discussion">Discussion</h2>
+<p>We stratified by ABO+Rh blood groups in a comparison of COV+ vs COV- individuals and found that A and O associations were only supported by evidence among those with Rh positive blood groups.
+Negative Rh blood groups are less common in our data, representing only 9.25% of individuals, so the lack of evidence for association with negative blood types could be due to lower sample sizes.
+However, odds ratios for ABO groups A and O are less extreme than the associated ABO+Rh blood groups (A+, O+), and the corresponding negative blood groups (A-, O-) have (insignificant) odds in the opposite directions as their positive counterparts.
+Further work is needed to better understand the associations between Rh group and COVID-19.</p>
+<p>Our meta-analysis found large heterogeneity in blood group distributions between Wuhan, Shenzhen, and New York City, consistent with previous work indicating large differences in blood group distributions between the United States and China <span class="citation" data-cites="k1AiiHPq sSNY0MJ9">[<a href="#ref-k1AiiHPq" role="doc-biblioref">13</a>,<a href="#ref-sSNY0MJ9" role="doc-biblioref">14</a>]</span>.
+Overall blood group differences introducted heterogeneity in our meta-analysis comparisons of blood group between COV+ individuals and the general population.
+Larger sample sizes of COVID-19 patients will allow afford a more detailed picture of the effects of blood type on COVID-19 susceptibility.</p>
+<p>The significant associations we found for blood type between COV+ and COV- individuals were far from significant in a comparison between COV+ and the general population at NYP.
+A possible explanation for this finding is that individuals tested for infection at NYP represent a more heterogeneous population with respect to blood type than the general patient population at NYP.
+Increased homogeneity would strengthen the blood-group-COVID-19 association signal as it would reduce the influence of overall population differences in blood-type distribution.
+Further work is needed to understand how the population of COVID-tested patients differs from the general population.</p>
+<p>We did not identify any significant relationships between blood group and intubation or death due to COVID-19.
+However, intubation and death due to COVID-19 continue in New York as of April 5, 2020, and individuals currently alive, not intubated, or COV- may reach these outcomes in the future.
+Our data is preliminary and represents a snapshot of the pandemic in a New York hospital system.
+When more patients are tested, intubated, and recover, we will be better able to assess the relationship between blood group and eventual COVID-19 outcomes that may not have occurred at the time of our analysis.</p>
+<p>Our study was conducted on EHR data collected during the care of patients, not necessarily with research intent.
+Our sample sizes were relatively small, making stratifications by age, sex, comorbidities, or other risk factors challenging.
+As an observational study without rigorous corrections for possible confounding, our results should be considered preliminary and should not be taken to inform clinical practice or policy.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>In this study we found further evidence for the association between blood group and COVID-19.
+Using data from NYP, we found the odds of COVID-19 positive vs negative test results were increased in blood groups A and decreased in blood group O, consistent with previous results from Wuhan and Shenzhen <span class="citation" data-cites="1DbV444Pj">[<a href="#ref-1DbV444Pj" role="doc-biblioref">3</a>]</span>.
+While few individuals were included in our cohort, we discovered a new significant odds decrease for AB blood group.
+In a meta-analysis of our data with data from Wuhan and Shenzhen reported by Zhao et al., we found significant associations between A, B, and O blood groups and COVID-19.
+Specifically, we found that A and B blood groups are associated with increased odds and O is associated with decreased odds in a comparison between COV+ and the general population.
+Our meta-analysis extended previous work using additional data and allowed us to declare significant at the 5% level an association between B blood group and COVID-19 (OR 1.11) that was weaker in the previous study (OR 1.09, p=0.121).</p>
+<h2 id="supplemental-information">Supplemental information</h2>
+<div id="tbl:blood_group_names" class="tablenos">
+<table>
+<caption><span>Table 4:</span> Procedures used by name to identify individual blood group </caption>
+<thead>
+<tr class="header">
+<th>Procedure name</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>TYPE AND SCREEN</td>
+</tr>
+<tr class="even">
+<td>BLOOD TYPE ABO AND RH</td>
+</tr>
+<tr class="odd">
+<td>TYPE (ABO CONFIRMATION ONLY)</td>
+</tr>
+<tr class="even">
+<td>NEWBORN PANEL (ABO/RH PLUS DAT PLUS AB SCREEN)</td>
+</tr>
+<tr class="odd">
+<td>CORD BLOOD PANEL (ABO/RH PLUS DAT)</td>
+</tr>
+<tr class="even">
+<td>NEWBORN BLOOD TYPE</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="tbl:combined_counts" class="tablenos">
+<table>
+<caption><span>Table 5:</span> Counts of individuals by blood group and the three COVID-19 outcomes assessed (test result, intubation, death), and blood groups estimated for the general population using data from 108,929 individuals not tested for COVID-19. </caption>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 10%" />
+<col style="width: 11%" />
+<col style="width: 15%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Blood group</th>
+<th style="text-align: left;">COV+</th>
+<th style="text-align: left;">COV-</th>
+<th style="text-align: left;">COV+/<br>Intubated</th>
+<th style="text-align: left;">COV+/Not<br>intubated</th>
+<th style="text-align: left;">COV+/<br>Died</th>
+<th style="text-align: left;">COV+/<br>Alive</th>
+<th style="text-align: left;">General<br>population</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>A</strong></td>
+<td style="text-align: left;">233</td>
+<td style="text-align: left;">245</td>
+<td style="text-align: left;">62</td>
+<td style="text-align: left;">171</td>
+<td style="text-align: left;">27</td>
+<td style="text-align: left;">206</td>
+<td style="text-align: left;">35643</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A-negative</td>
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">26</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">3447</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A-positive</td>
+<td style="text-align: left;">216</td>
+<td style="text-align: left;">219</td>
+<td style="text-align: left;">60</td>
+<td style="text-align: left;">156</td>
+<td style="text-align: left;">26</td>
+<td style="text-align: left;">190</td>
+<td style="text-align: left;">32196</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>AB</strong></td>
+<td style="text-align: left;">21</td>
+<td style="text-align: left;">47</td>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">4582</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AB-negative<a href="#asterisk0">*</a></td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">394</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AB-positive</td>
+<td style="text-align: left;">21</td>
+<td style="text-align: left;">42</td>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">4188</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>B</strong></td>
+<td style="text-align: left;">116</td>
+<td style="text-align: left;">136</td>
+<td style="text-align: left;">35</td>
+<td style="text-align: left;">81</td>
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">104</td>
+<td style="text-align: left;">16229</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B-negative</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">1422</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">B-positive</td>
+<td style="text-align: left;">109</td>
+<td style="text-align: left;">122</td>
+<td style="text-align: left;">33</td>
+<td style="text-align: left;">76</td>
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">97</td>
+<td style="text-align: left;">14807</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>O</strong></td>
+<td style="text-align: left;">312</td>
+<td style="text-align: left;">449</td>
+<td style="text-align: left;">74</td>
+<td style="text-align: left;">238</td>
+<td style="text-align: left;">36</td>
+<td style="text-align: left;">276</td>
+<td style="text-align: left;">52406</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">O-negative</td>
+<td style="text-align: left;">21</td>
+<td style="text-align: left;">26</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">21</td>
+<td style="text-align: left;">4808</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">O-positive</td>
+<td style="text-align: left;">291</td>
+<td style="text-align: left;">423</td>
+<td style="text-align: left;">70</td>
+<td style="text-align: left;">221</td>
+<td style="text-align: left;">36</td>
+<td style="text-align: left;">255</td>
+<td style="text-align: left;">47598</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Total</strong></td>
+<td style="text-align: left;">682</td>
+<td style="text-align: left;">877</td>
+<td style="text-align: left;">179</td>
+<td style="text-align: left;">503</td>
+<td style="text-align: left;">80</td>
+<td style="text-align: left;">602</td>
+<td style="text-align: left;">108860</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><a name="asterisk0">*</a> AB-negative was not included in the ABO+Rh analyses as no individuals with that blood type recorded tested positive for COVID-19.</p>
+<div id="tbl:combined_fisher" class="tablenos">
+<table>
+<caption><span>Table 6:</span> Summary of all one-vs-rest analyses conducted. Each individual test compared the listed blood group with all other blood groups between the listed comparison groups. Shown are comparisons between each blood type and all three COVID-19 outcomes investigated. </caption>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 34%" />
+<col style="width: 6%" />
+<col style="width: 17%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Blood group</th>
+<th style="text-align: left;">Blood group type</th>
+<th style="text-align: left;">Comparison groups</th>
+<th style="text-align: left;">OR</th>
+<th style="text-align: left;">95% CI</th>
+<th style="text-align: left;">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+ vs general population</td>
+<td style="text-align: left;">1.066</td>
+<td style="text-align: left;">0.906 - 1.252</td>
+<td style="text-align: left;">0.437</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A-negative</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+ vs general population</td>
+<td style="text-align: left;">0.779</td>
+<td style="text-align: left;">0.45 - 1.258</td>
+<td style="text-align: left;">0.379</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+ vs general population</td>
+<td style="text-align: left;">1.098</td>
+<td style="text-align: left;">0.93 - 1.294</td>
+<td style="text-align: left;">0.257</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AB</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+ vs general population</td>
+<td style="text-align: left;">0.723</td>
+<td style="text-align: left;">0.444 - 1.116</td>
+<td style="text-align: left;">0.151</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AB-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+ vs general population</td>
+<td style="text-align: left;">0.791</td>
+<td style="text-align: left;">0.486 - 1.221</td>
+<td style="text-align: left;">0.368</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+ vs general population</td>
+<td style="text-align: left;">1.170</td>
+<td style="text-align: left;">0.949 - 1.432</td>
+<td style="text-align: left;">0.131</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">B-negative</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+ vs general population</td>
+<td style="text-align: left;">0.781</td>
+<td style="text-align: left;">0.312 - 1.622</td>
+<td style="text-align: left;">0.733</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+ vs general population</td>
+<td style="text-align: left;">1.203</td>
+<td style="text-align: left;">0.971 - 1.48</td>
+<td style="text-align: left;">0.083</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">O</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+ vs general population</td>
+<td style="text-align: left;">0.908</td>
+<td style="text-align: left;">0.778 - 1.059</td>
+<td style="text-align: left;">0.219</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">O-negative</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+ vs general population</td>
+<td style="text-align: left;">0.685</td>
+<td style="text-align: left;">0.421 - 1.057</td>
+<td style="text-align: left;">0.092</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">O-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+ vs general population</td>
+<td style="text-align: left;">0.952</td>
+<td style="text-align: left;">0.815 - 1.111</td>
+<td style="text-align: left;">0.536</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+ vs COV-</td>
+<td style="text-align: left;">1.338</td>
+<td style="text-align: left;">1.072 - 1.672</td>
+<td style="text-align: left;"><strong>0.009</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A-negative</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+ vs COV-</td>
+<td style="text-align: left;">0.832</td>
+<td style="text-align: left;">0.42 - 1.608</td>
+<td style="text-align: left;">0.641</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+ vs COV-</td>
+<td style="text-align: left;">1.382</td>
+<td style="text-align: left;">1.099 - 1.737</td>
+<td style="text-align: left;"><strong>0.004</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AB</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+ vs COV-</td>
+<td style="text-align: left;">0.561</td>
+<td style="text-align: left;">0.315 - 0.969</td>
+<td style="text-align: left;"><strong>0.033</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AB-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+ vs COV-</td>
+<td style="text-align: left;">0.628</td>
+<td style="text-align: left;">0.35 - 1.097</td>
+<td style="text-align: left;">0.093</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+ vs COV-</td>
+<td style="text-align: left;">1.117</td>
+<td style="text-align: left;">0.843 - 1.477</td>
+<td style="text-align: left;">0.446</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B-negative</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+ vs COV-</td>
+<td style="text-align: left;">0.636</td>
+<td style="text-align: left;">0.216 - 1.695</td>
+<td style="text-align: left;">0.381</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">B-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+ vs COV-</td>
+<td style="text-align: left;">1.169</td>
+<td style="text-align: left;">0.874 - 1.563</td>
+<td style="text-align: left;">0.282</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">O</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+ vs COV-</td>
+<td style="text-align: left;">0.804</td>
+<td style="text-align: left;">0.654 - 0.987</td>
+<td style="text-align: left;"><strong>0.036</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">O-negative</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+ vs COV-</td>
+<td style="text-align: left;">1.034</td>
+<td style="text-align: left;">0.548 - 1.93</td>
+<td style="text-align: left;">1.000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">O-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+ vs COV-</td>
+<td style="text-align: left;">0.790</td>
+<td style="text-align: left;">0.642 - 0.971</td>
+<td style="text-align: left;"><strong>0.024</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+/Intubated vs COV+/Not intubated</td>
+<td style="text-align: left;">1.029</td>
+<td style="text-align: left;">0.705 - 1.493</td>
+<td style="text-align: left;">0.927</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A-negative</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+/Intubated vs COV+/Not intubated</td>
+<td style="text-align: left;">0.368</td>
+<td style="text-align: left;">0.04 - 1.608</td>
+<td style="text-align: left;">0.263</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+/Intubated vs COV+/Not intubated</td>
+<td style="text-align: left;">1.121</td>
+<td style="text-align: left;">0.765 - 1.635</td>
+<td style="text-align: left;">0.575</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AB</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+/Intubated vs COV+/Not intubated</td>
+<td style="text-align: left;">1.762</td>
+<td style="text-align: left;">0.622 - 4.678</td>
+<td style="text-align: left;">0.214</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AB-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+/Intubated vs COV+/Not intubated</td>
+<td style="text-align: left;">1.762</td>
+<td style="text-align: left;">0.622 - 4.678</td>
+<td style="text-align: left;">0.214</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+/Intubated vs COV+/Not intubated</td>
+<td style="text-align: left;">1.266</td>
+<td style="text-align: left;">0.79 - 1.999</td>
+<td style="text-align: left;">0.298</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">B-negative</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+/Intubated vs COV+/Not intubated</td>
+<td style="text-align: left;">1.125</td>
+<td style="text-align: left;">0.106 - 6.948</td>
+<td style="text-align: left;">1.000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+/Intubated vs COV+/Not intubated</td>
+<td style="text-align: left;">1.269</td>
+<td style="text-align: left;">0.783 - 2.027</td>
+<td style="text-align: left;">0.342</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">O</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+/Intubated vs COV+/Not intubated</td>
+<td style="text-align: left;">0.785</td>
+<td style="text-align: left;">0.547 - 1.124</td>
+<td style="text-align: left;">0.190</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">O-negative</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+/Intubated vs COV+/Not intubated</td>
+<td style="text-align: left;">0.654</td>
+<td style="text-align: left;">0.158 - 2.042</td>
+<td style="text-align: left;">0.616</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">O-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+/Intubated vs COV+/Not intubated</td>
+<td style="text-align: left;">0.820</td>
+<td style="text-align: left;">0.569 - 1.177</td>
+<td style="text-align: left;">0.291</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+/Died vs COV+/Alive</td>
+<td style="text-align: left;">0.979</td>
+<td style="text-align: left;">0.574 - 1.639</td>
+<td style="text-align: left;">1.000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A-negative</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+/Died vs COV+/Alive</td>
+<td style="text-align: left;">0.464</td>
+<td style="text-align: left;">0.011 - 3.067</td>
+<td style="text-align: left;">0.708</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+/Died vs COV+/Alive</td>
+<td style="text-align: left;">1.044</td>
+<td style="text-align: left;">0.608 - 1.757</td>
+<td style="text-align: left;">0.898</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AB</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+/Died vs COV+/Alive</td>
+<td style="text-align: left;">2.437</td>
+<td style="text-align: left;">0.679 - 7.226</td>
+<td style="text-align: left;">0.088</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AB-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+/Died vs COV+/Alive</td>
+<td style="text-align: left;">2.437</td>
+<td style="text-align: left;">0.679 - 7.226</td>
+<td style="text-align: left;">0.088</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+/Died vs COV+/Alive</td>
+<td style="text-align: left;">0.845</td>
+<td style="text-align: left;">0.402 - 1.646</td>
+<td style="text-align: left;">0.751</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B-negative</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+/Died vs COV+/Alive</td>
+<td style="text-align: left;">0.000</td>
+<td style="text-align: left;">0 - 5.26</td>
+<td style="text-align: left;">1.000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">B-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+/Died vs COV+/Alive</td>
+<td style="text-align: left;">0.919</td>
+<td style="text-align: left;">0.436 - 1.794</td>
+<td style="text-align: left;">0.872</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">O</td>
+<td style="text-align: left;">ABO</td>
+<td style="text-align: left;">COV+/Died vs COV+/Alive</td>
+<td style="text-align: left;">0.966</td>
+<td style="text-align: left;">0.586 - 1.585</td>
+<td style="text-align: left;">0.906</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">O-negative</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+/Died vs COV+/Alive</td>
+<td style="text-align: left;">0.000</td>
+<td style="text-align: left;">0 - 1.429</td>
+<td style="text-align: left;">0.158</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">O-positive</td>
+<td style="text-align: left;">ABO+Rh</td>
+<td style="text-align: left;">COV+/Died vs COV+/Alive</td>
+<td style="text-align: left;">1.113</td>
+<td style="text-align: left;">0.675 - 1.827</td>
+<td style="text-align: left;">0.718</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="tbl:abo_nyc_vs_china" class="tablenos">
+<table>
+<caption><span>Table 7:</span> Distributions of blood groups between New York City data from the NYP EHR system and individuals from Shenzhen (cases from Shenzhen
+Third People’s Hospital, controls from Shenzhen general population) and Wuhan (cases from Wuhan Jinyintan Hospital and Renmin Hospital of Wuhan University, controls from Wuhan general population). Shenzhen and Wuhan data reported by Zhao et al. <span class="citation" data-cites="1DbV444Pj">[<a href="#ref-1DbV444Pj" role="doc-biblioref">3</a>]</span>. </caption>
+<colgroup>
+<col style="width: 7%" />
+<col style="width: 15%" />
+<col style="width: 7%" />
+<col style="width: 18%" />
+<col style="width: 9%" />
+<col style="width: 16%" />
+<col style="width: 13%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Blood group</th>
+<th style="text-align: left;">NYP general population</th>
+<th style="text-align: left;">NYP COV+</th>
+<th style="text-align: left;">Shenzhen general population</th>
+<th style="text-align: left;">Shenzhen COV+</th>
+<th style="text-align: left;">Wuhan general population</th>
+<th style="text-align: left;">Wuhan Jinyintan COV+</th>
+<th style="text-align: left;">Wuhan Renmin COV+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">32.7% (35643)</td>
+<td style="text-align: left;">34.2% (233)</td>
+<td style="text-align: left;">28.8% (6728)</td>
+<td style="text-align: left;">28.8% (82)</td>
+<td style="text-align: left;">32.2% (1188)</td>
+<td style="text-align: left;">37.7% (670)</td>
+<td style="text-align: left;">39.8% (45)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AB</td>
+<td style="text-align: left;">4.2% (4582)</td>
+<td style="text-align: left;">3.1% (21)</td>
+<td style="text-align: left;">7.3% (1712)</td>
+<td style="text-align: left;">13.7% (39)</td>
+<td style="text-align: left;">9.1% (336)</td>
+<td style="text-align: left;">10% (178)</td>
+<td style="text-align: left;">13.3% (15)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">14.9% (16229)</td>
+<td style="text-align: left;">17% (116)</td>
+<td style="text-align: left;">25.1% (5880)</td>
+<td style="text-align: left;">29.1% (83)</td>
+<td style="text-align: left;">24.9% (920)</td>
+<td style="text-align: left;">26.4% (469)</td>
+<td style="text-align: left;">22.1% (25)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">O</td>
+<td style="text-align: left;">48.1% (52406)</td>
+<td style="text-align: left;">45.7% (312)</td>
+<td style="text-align: left;">38.8% (9066)</td>
+<td style="text-align: left;">28.4% (81)</td>
+<td style="text-align: left;">33.8% (1250)</td>
+<td style="text-align: left;">25.8% (458)</td>
+<td style="text-align: left;">24.8% (28)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="tbl:meta_weights" class="tablenos">
+<table>
+<caption><span>Table 8:</span> Weights for sites in random-effects meta-analyses conducted for each ABO blood group. Each blood group was compared against all others using data from NYP, and Zhao et al. (Wuhan Jinyintan, Renmin Hospital in Wuhan, and Shenzhen Third People’s Hospital). </caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Blood group</th>
+<th style="text-align: left;">Site</th>
+<th style="text-align: left;">OR</th>
+<th style="text-align: left;">95% CI</th>
+<th style="text-align: left;">%Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">NYP</td>
+<td style="text-align: left;">1.0660</td>
+<td style="text-align: left;">0.9095 - 1.2494</td>
+<td style="text-align: left;">31.8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">Wuhan Jinyintain</td>
+<td style="text-align: left;">1.2790</td>
+<td style="text-align: left;">1.1364 - 1.4395</td>
+<td style="text-align: left;">39.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">Wuhan Renmin</td>
+<td style="text-align: left;">1.3959</td>
+<td style="text-align: left;">0.9519 - 2.0472</td>
+<td style="text-align: left;">10.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">Shenzhen</td>
+<td style="text-align: left;">1.0001</td>
+<td style="text-align: left;">0.7727 - 1.2945</td>
+<td style="text-align: left;">18.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">NYP</td>
+<td style="text-align: left;">1.1698</td>
+<td style="text-align: left;">0.9573 - 1.4294</td>
+<td style="text-align: left;">23.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">Wuhan Jinyintain</td>
+<td style="text-align: left;">1.0828</td>
+<td style="text-align: left;">0.9516 - 1.2321</td>
+<td style="text-align: left;">57.1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">Wuhan Renmin</td>
+<td style="text-align: left;">0.8566</td>
+<td style="text-align: left;">0.5460 - 1.3440</td>
+<td style="text-align: left;">4.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">Shenzhen</td>
+<td style="text-align: left;">1.2233</td>
+<td style="text-align: left;">0.9458 - 1.5822</td>
+<td style="text-align: left;">14.4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AB</td>
+<td style="text-align: left;">NYP</td>
+<td style="text-align: left;">0.7230</td>
+<td style="text-align: left;">0.4678 - 1.1176</td>
+<td style="text-align: left;">23.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AB</td>
+<td style="text-align: left;">Wuhan Jinyintain</td>
+<td style="text-align: left;">1.1139</td>
+<td style="text-align: left;">0.9201 - 1.3487</td>
+<td style="text-align: left;">30.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AB</td>
+<td style="text-align: left;">Wuhan Renmin</td>
+<td style="text-align: left;">1.5297</td>
+<td style="text-align: left;">0.8783 - 2.6643</td>
+<td style="text-align: left;">20.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AB</td>
+<td style="text-align: left;">Shenzhen</td>
+<td style="text-align: left;">2.0071</td>
+<td style="text-align: left;">1.4266 - 2.8237</td>
+<td style="text-align: left;">26.3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">O</td>
+<td style="text-align: left;">NYP</td>
+<td style="text-align: left;">0.9084</td>
+<td style="text-align: left;">0.7810 - 1.0566</td>
+<td style="text-align: left;">31.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">O</td>
+<td style="text-align: left;">Wuhan Jinyintain</td>
+<td style="text-align: left;">0.6799</td>
+<td style="text-align: left;">0.5993 - 0.7715</td>
+<td style="text-align: left;">32.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">O</td>
+<td style="text-align: left;">Wuhan Renmin</td>
+<td style="text-align: left;">0.6441</td>
+<td style="text-align: left;">0.4179 - 0.9925</td>
+<td style="text-align: left;">13.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">O</td>
+<td style="text-align: left;">Shenzhen</td>
+<td style="text-align: left;">0.6272</td>
+<td style="text-align: left;">0.4842 - 0.8124</td>
+<td style="text-align: left;">22.8</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="tbl:meta_heterogeneity" class="tablenos">
+<table>
+<caption><span>Table 9:</span> Heterogeneity across meta-analysis sites. </caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Blood group</th>
+<th style="text-align: left;">I-squared</th>
+<th style="text-align: left;">I-squared 95% CI</th>
+<th style="text-align: left;">Q</th>
+<th style="text-align: left;">Q d.f.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">A</td>
+<td style="text-align: left;">47.1%</td>
+<td style="text-align: left;">0.0 - 82.4</td>
+<td style="text-align: left;">5.67</td>
+<td style="text-align: left;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">0.0%</td>
+<td style="text-align: left;">0.0 - 79.4</td>
+<td style="text-align: left;">2.23</td>
+<td style="text-align: left;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AB</td>
+<td style="text-align: left;">80.6%</td>
+<td style="text-align: left;">48.9 - 92.6</td>
+<td style="text-align: left;">15.43</td>
+<td style="text-align: left;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">O</td>
+<td style="text-align: left;">72.1%</td>
+<td style="text-align: left;">21.0 - 90.2</td>
+<td style="text-align: left;">10.76</td>
+<td style="text-align: left;">3</td>
+</tr>
+</tbody>
+</table>
+</div>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
-<div id="refs" role="doc-bibliography">
-
+<div id="refs" class="references hanging-indent" role="doc-bibliography">
+<div id="ref-MDWlwuhC">
+<p>1. <strong>Coronavirus disease 2019 (COVID-19) Situation Report – 76</strong><br />
+World Health Organization<br />
+<em>WHO Coronavirus disease 2019 situation reports</em> (2020-04-05) <a href="https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200405-sitrep-76-covid-19.pdf?sfvrsn=6ecf0977_2">https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200405-sitrep-76-covid-19.pdf?sfvrsn=6ecf0977_2</a></p>
+</div>
+<div id="ref-10THxyeCg">
+<p>2. <strong>Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study</strong><br />
+Fei Zhou, Ting Yu, Ronghui Du, Guohui Fan, Ying Liu, Zhibo Liu, Jie Xiang, Yeming Wang, Bin Song, Xiaoying Gu, … Bin Cao<br />
+<em>The Lancet</em> (2020-03) <a href="https://doi.org/ggnxb3">https://doi.org/ggnxb3</a><br />
+DOI: <a href="https://doi.org/10.1016/s0140-6736(20)30566-3">10.1016/s0140-6736(20)30566-3</a></p>
+</div>
+<div id="ref-1DbV444Pj">
+<p>3. <strong>Relationship between the ABO Blood Group and the COVID-19 Susceptibility</strong><br />
+Jiao Zhao, Yan Yang, Hanping Huang, Dong Li, Dongfeng Gu, Xiangfeng Lu, Zheng Zhang, Lei Liu, Ting Liu, Yukun Liu, … Peng George Wang<br />
+<em>medRxiv</em> (2020-03-27) <a href="https://doi.org/ggpn3d">https://doi.org/ggpn3d</a><br />
+DOI: <a href="https://doi.org/10.1101/2020.03.11.20031096">10.1101/2020.03.11.20031096</a></p>
+</div>
+<div id="ref-18yiOVr39">
+<p>4. <strong>ABO Blood Group and Susceptibility to Severe Acute Respiratory Syndrome</strong><br />
+JAMA<br />
+(2005-03-23) <a href="https://doi.org/ftkw6v">https://doi.org/ftkw6v</a><br />
+DOI: <a href="https://doi.org/10.1001/jama.293.12.1450-c">10.1001/jama.293.12.1450-c</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15784866">15784866</a></p>
+</div>
+<div id="ref-BwRDGiQB">
+<p>5. <strong>ABO Blood Group Phenotypes and Plasmodium falciparum Malaria: Unlocking a Pivotal Mechanism</strong><br />
+María‐Paz Loscertales, Stephen Owens, James O’Donnell, James Bunn, Xavier Bosch‐Capblanch, Bernard J. Brabin<br />
+<em>Advances in Parasitology</em> (2007) <a href="https://doi.org/db42m2">https://doi.org/db42m2</a><br />
+DOI: <a href="https://doi.org/10.1016/s0065-308x(07)65001-5">10.1016/s0065-308x(07)65001-5</a></p>
+</div>
+<div id="ref-gRvptytE">
+<p>6. <strong>Attachment of Helicobacter pylori to human gastric epithelium mediated by blood group antigens</strong><br />
+T Boren, P Falk, K. Roth, G Larson, S Normark<br />
+<em>Science</em> (1993-12-17) <a href="https://doi.org/d3wbh6">https://doi.org/d3wbh6</a><br />
+DOI: <a href="https://doi.org/10.1126/science.8018146">10.1126/science.8018146</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/8018146">8018146</a></p>
+</div>
+<div id="ref-Cv4dHirC">
+<p>7. <strong>Human susceptibility and resistance to Norwalk virus infection</strong><br />
+Lisa Lindesmith, Christine Moe, Severine Marionneau, Nathalie Ruvoen, Xi Jiang, Lauren Lindblad, Paul Stewart, Jacques LePendu, Ralph Baric<br />
+<em>Nature Medicine</em> (2003-04-14) <a href="https://doi.org/c7xvwh">https://doi.org/c7xvwh</a><br />
+DOI: <a href="https://doi.org/10.1038/nm860">10.1038/nm860</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/12692541">12692541</a></p>
+</div>
+<div id="ref-cRoyxlfx">
+<p>8. <strong>ABO blood group, hepatitis B viral infection and risk of pancreatic cancer</strong><br />
+De-Shen Wang, Dong-Liang Chen, Chao Ren, Zhi-Qiang Wang, Miao-Zhen Qiu, Hui-Yan Luo, Dong-Sheng Zhang, Feng-Hua Wang, Yu-Hong Li, Rui-Hua Xu<br />
+<em>International Journal of Cancer</em> (2012-07-15) <a href="https://doi.org/cpfxbm">https://doi.org/cpfxbm</a><br />
+DOI: <a href="https://doi.org/10.1002/ijc.26376">10.1002/ijc.26376</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21858814">21858814</a></p>
+</div>
+<div id="ref-3BxRla9h">
+<p>9. <strong>Relation of Infection with Neisseria gonorrhoeae to ABO Blood Groups</strong><br />
+M. T. Foster, A. H. Labrum<br />
+<em>Journal of Infectious Diseases</em> (1976-02-01) <a href="https://doi.org/dt9x9d">https://doi.org/dt9x9d</a><br />
+DOI: <a href="https://doi.org/10.1093/infdis/133.3.329">10.1093/infdis/133.3.329</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/1254989">1254989</a></p>
+</div>
+<div id="ref-LSRyVwrE">
+<p>10. <strong>COVID-19: Data - NYC Health</strong><a href="https://www1.nyc.gov/site/doh/covid/covid-19-data.page">https://www1.nyc.gov/site/doh/covid/covid-19-data.page</a></p>
+</div>
+<div id="ref-oirgcbj3">
+<p>11. <strong>Meta-Analysis with R</strong><br />
+Guido Schwarzer, James R. Carpenter, Gerta Rücker<br />
+<em>Use R!</em> (2015) <a href="https://doi.org/drbb">https://doi.org/drbb</a><br />
+DOI: <a href="https://doi.org/10.1007/978-3-319-21416-0">10.1007/978-3-319-21416-0</a></p>
+</div>
+<div id="ref-YuJbg3zO">
+<p>12. <strong>Open collaborative writing with Manubot</strong><br />
+Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat S. Malladi, Casey S. Greene, Anthony Gitter<br />
+<em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a><br />
+DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></p>
+</div>
+<div id="ref-k1AiiHPq">
+<p>13. <strong>Frequencies and ethnic distribution of ABO and RhD blood groups in China: a population-based cross-sectional study</strong><br />
+Jue Liu, Shikun Zhang, Qiaomei Wang, Haiping Shen, Yiping Zhang, Min Liu<br />
+<em>BMJ Open</em> (2017-12-03) <a href="https://doi.org/gcnrk5">https://doi.org/gcnrk5</a><br />
+DOI: <a href="https://doi.org/10.1136/bmjopen-2017-018476">10.1136/bmjopen-2017-018476</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29203504">29203504</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5736034">PMC5736034</a></p>
+</div>
+<div id="ref-sSNY0MJ9">
+<p>14. <strong>ABO and Rh(D) phenotype frequencies of different racial/ ethnic groups in the United States</strong><br />
+George Garratty, Simone A. Glynn, Robin McEntire, Retrovirus Epidemiology Donor Study<br />
+<em>Transfusion</em> (2004-05) <a href="https://doi.org/dkshr5">https://doi.org/dkshr5</a><br />
+DOI: <a href="https://doi.org/10.1111/j.1537-2995.2004.03338.x">10.1111/j.1537-2995.2004.03338.x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15104651">15104651</a></p>
+</div>
 </div>
 <!-- default theme -->
 
