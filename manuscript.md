@@ -14,13 +14,13 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Further evidence for an association between blood type and COVID-19 infection, intubation, and death" />
+  <meta name="dc.title" content="Testing the association between blood type and COVID-19 infection, intubation, and death" />
 
-  <meta name="citation_title" content="Further evidence for an association between blood type and COVID-19 infection, intubation, and death" />
+  <meta name="citation_title" content="Testing the association between blood type and COVID-19 infection, intubation, and death" />
 
-  <meta property="og:title" content="Further evidence for an association between blood type and COVID-19 infection, intubation, and death" />
+  <meta property="og:title" content="Testing the association between blood type and COVID-19 infection, intubation, and death" />
 
-  <meta property="twitter:title" content="Further evidence for an association between blood type and COVID-19 infection, intubation, and death" />
+  <meta property="twitter:title" content="Testing the association between blood type and COVID-19 infection, intubation, and death" />
 
   <meta name="dc.date" content="2020-04-06" />
 
@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://zietzm.github.io/abo_covid/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://zietzm.github.io/abo_covid/v/6a365a3b320d41f03bf8b3a5e7c7690d7a531191/" />
+  <link rel="alternate" type="text/html" href="https://zietzm.github.io/abo_covid/v/82c9fbc89799845b97081e701b01539b4ac696a3/" />
 
-  <meta name="manubot_html_url_versioned" content="https://zietzm.github.io/abo_covid/v/6a365a3b320d41f03bf8b3a5e7c7690d7a531191/" />
+  <meta name="manubot_html_url_versioned" content="https://zietzm.github.io/abo_covid/v/82c9fbc89799845b97081e701b01539b4ac696a3/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://zietzm.github.io/abo_covid/v/6a365a3b320d41f03bf8b3a5e7c7690d7a531191/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://zietzm.github.io/abo_covid/v/82c9fbc89799845b97081e701b01539b4ac696a3/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -86,7 +86,7 @@ manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Further evidence for an association between blood type and COVID-19 infection, intubation, and death
+title: Testing the association between blood type and COVID-19 infection, intubation, and death
 ...
 
 
@@ -96,9 +96,9 @@ title: Further evidence for an association between blood type and COVID-19 infec
 
 <small><em>
 This manuscript
-([permalink](https://zietzm.github.io/abo_covid/v/6a365a3b320d41f03bf8b3a5e7c7690d7a531191/))
+([permalink](https://zietzm.github.io/abo_covid/v/82c9fbc89799845b97081e701b01539b4ac696a3/))
 was automatically generated
-from [zietzm/abo_covid@6a365a3](https://github.com/zietzm/abo_covid/tree/6a365a3b320d41f03bf8b3a5e7c7690d7a531191)
+from [zietzm/abo_covid@82c9fbc](https://github.com/zietzm/abo_covid/tree/82c9fbc89799845b97081e701b01539b4ac696a3)
 on April 6, 2020.
 </em></small>
 
@@ -125,8 +125,8 @@ on April 6, 2020.
 The rapid global spread of the novel coronavirus SARS-CoV-2 has strained existing healthcare and testing resources, making the identification and prioritization of individuals most at-risk a critical challenge.
 A recent study of patients in China discovered an association between ABO blood type and SARS-CoV-2 infection status by comparing COVID-19 patients with the general population.
 Whether blood type is associated with increased COVID-19 morbidity or mortality remains unknown.
-We used observational healthcare data on 1559 individuals (682 COV+) with known blood type in the New York Presbyterian (NYP) hospital system to assess the association between ABO+Rh blood type and SARS-CoV-2 infection status, intubation, and death.
-In tests of individual blood groups, a higher proportion of blood group A and a lower proportion of blood group O were found among COVID-19 patients compared to those testing negative for the virus, though in both cases the result is significant only in Rh positive blood types.
+We used observational healthcare data on 1559 COVID-tested individuals (682 COV+) with known blood type in the New York Presbyterian (NYP) hospital system to assess the association between ABO+Rh blood type and SARS-CoV-2 infection status, intubation, and death.
+A higher proportion of blood group A and a lower proportion of blood group O were found among COVID-19 patients compared to those testing negative for the virus, though in both cases the result is significant only in Rh positive blood types.
 A meta-analysis of NYP data with previously reported data from China uncovered significantly increased A and B and significantly decreased O blood groups among COVID-19 patients.
 Our data do not provide strong evidence of associations between blood group and intubation or death among COVID-19 patients.
 While our results are based on preliminary observational data collected during the care of patients and should not be used to guide clinical practice, we find further evidence of recently-discovered associations between blood group and SARS-CoV-2 infection status and new evidence of associations between B and Rh blood groups and COVID-19.
