@@ -1,5 +1,5 @@
 ---
-title: "The effect of blood type on COVID-19 infection, intubation, and death"
+title: "Further evidence for an association between blood type and COVID-19 infection, intubation, and death"
 keywords:
   - covid-19
   - coronavirus
@@ -17,13 +17,4 @@ authors:
     email: michael.zietz@gmail.com
     affiliations:
       - Department of Biomedical Informatics, Columbia University
-    funders: Grant XXXXXXXX
-  # -
-  #   github: janeroe
-  #   name: Jane Roe
-  #   initials: JR
-  #   orcid: XXXX-XXXX-XXXX-XXXX
-  #   email: jane.roe@whatever.edu
-  #   affiliations:
-  #     - Department of Something, University of Whatever
-  #     - Department of Whatever, University of Something
+    funders: NIH T15 LM007079
