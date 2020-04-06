@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/zietzm/abo_covid/tree/gh-pages) branch hosts the contents of this directory at <https://zietzm.github.io/abo_covid/>.
-The permalink for this webpage version is <https://zietzm.github.io/abo_covid/v/2317c64336709ac7e7eec977977a2fa70a599f5c/>.
+The permalink for this webpage version is <https://zietzm.github.io/abo_covid/v/10f087fe26a682e060cec6bbb02f3f29c0ce0efc/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://zietzm.github.io/abo_covid/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`2317c64336709ac7e7eec977977a2fa70a599f5c`](https://github.com/zietzm/abo_covid/commit/2317c64336709ac7e7eec977977a2fa70a599f5c).
+[`10f087fe26a682e060cec6bbb02f3f29c0ce0efc`](https://github.com/zietzm/abo_covid/commit/10f087fe26a682e060cec6bbb02f3f29c0ce0efc).
