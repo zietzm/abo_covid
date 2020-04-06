@@ -14,13 +14,13 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="The effect of blood type on COVID-19 infection, intubation, and death" />
+  <meta name="dc.title" content="Further evidence for an association between blood type and COVID-19 infection, intubation, and death" />
 
-  <meta name="citation_title" content="The effect of blood type on COVID-19 infection, intubation, and death" />
+  <meta name="citation_title" content="Further evidence for an association between blood type and COVID-19 infection, intubation, and death" />
 
-  <meta property="og:title" content="The effect of blood type on COVID-19 infection, intubation, and death" />
+  <meta property="og:title" content="Further evidence for an association between blood type and COVID-19 infection, intubation, and death" />
 
-  <meta property="twitter:title" content="The effect of blood type on COVID-19 infection, intubation, and death" />
+  <meta property="twitter:title" content="Further evidence for an association between blood type and COVID-19 infection, intubation, and death" />
 
   <meta name="dc.date" content="2020-04-06" />
 
@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://zietzm.github.io/abo_covid/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://zietzm.github.io/abo_covid/v/8bbe6da6eaaae19b08009651b120eb684e60363b/" />
+  <link rel="alternate" type="text/html" href="https://zietzm.github.io/abo_covid/v/6a365a3b320d41f03bf8b3a5e7c7690d7a531191/" />
 
-  <meta name="manubot_html_url_versioned" content="https://zietzm.github.io/abo_covid/v/8bbe6da6eaaae19b08009651b120eb684e60363b/" />
+  <meta name="manubot_html_url_versioned" content="https://zietzm.github.io/abo_covid/v/6a365a3b320d41f03bf8b3a5e7c7690d7a531191/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://zietzm.github.io/abo_covid/v/8bbe6da6eaaae19b08009651b120eb684e60363b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://zietzm.github.io/abo_covid/v/6a365a3b320d41f03bf8b3a5e7c7690d7a531191/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -86,7 +86,7 @@ manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: The effect of blood type on COVID-19 infection, intubation, and death
+title: Further evidence for an association between blood type and COVID-19 infection, intubation, and death
 ...
 
 
@@ -96,9 +96,9 @@ title: The effect of blood type on COVID-19 infection, intubation, and death
 
 <small><em>
 This manuscript
-([permalink](https://zietzm.github.io/abo_covid/v/8bbe6da6eaaae19b08009651b120eb684e60363b/))
+([permalink](https://zietzm.github.io/abo_covid/v/6a365a3b320d41f03bf8b3a5e7c7690d7a531191/))
 was automatically generated
-from [zietzm/abo_covid@8bbe6da](https://github.com/zietzm/abo_covid/tree/8bbe6da6eaaae19b08009651b120eb684e60363b)
+from [zietzm/abo_covid@6a365a3](https://github.com/zietzm/abo_covid/tree/6a365a3b320d41f03bf8b3a5e7c7690d7a531191)
 on April 6, 2020.
 </em></small>
 
@@ -115,7 +115,7 @@ on April 6, 2020.
     [ZietzMichael](https://twitter.com/ZietzMichael)<br>
   <small>
      Department of Biomedical Informatics, Columbia University
-     · Funded by Grant XXXXXXXX
+     · Funded by NIH T15 LM007079
   </small>
 
 
@@ -126,11 +126,10 @@ The rapid global spread of the novel coronavirus SARS-CoV-2 has strained existin
 A recent study of patients in China discovered an association between ABO blood type and SARS-CoV-2 infection status by comparing COVID-19 patients with the general population.
 Whether blood type is associated with increased COVID-19 morbidity or mortality remains unknown.
 We used observational healthcare data on 1559 individuals (682 COV+) with known blood type in the New York Presbyterian (NYP) hospital system to assess the association between ABO+Rh blood type and SARS-CoV-2 infection status, intubation, and death.
-We find associations between blood group and infection status, as well as different effects when stratifying by Rh blood group.
-In tests of individual blood groups, we find a higher proportion of blood group A and a lower proportion of blood group O among COVID-19 patients compared to those testing negative for the virus, though in both cases the result is significant only in Rh positive blood types.
-A meta-analysis of NYP data with previously reported data from China uncovered significantly increased B blood groups among COVID-19 patients.
-Our data did not provide strong evidence of associations between blood group and intubation or death among COVID-19 patients.
-While our results are based on preliminary observational data collected during the care of patients and should not be used to guide clinical practice, we find further evidence of recently-discovered associations between blood group and SARS-CoV-2 infection status and find new evidence of associations between B blood group and Rh blood groups and COVID-19.
+In tests of individual blood groups, a higher proportion of blood group A and a lower proportion of blood group O were found among COVID-19 patients compared to those testing negative for the virus, though in both cases the result is significant only in Rh positive blood types.
+A meta-analysis of NYP data with previously reported data from China uncovered significantly increased A and B and significantly decreased O blood groups among COVID-19 patients.
+Our data do not provide strong evidence of associations between blood group and intubation or death among COVID-19 patients.
+While our results are based on preliminary observational data collected during the care of patients and should not be used to guide clinical practice, we find further evidence of recently-discovered associations between blood group and SARS-CoV-2 infection status and new evidence of associations between B and Rh blood groups and COVID-19.
 
 
 ## Background
@@ -140,7 +139,7 @@ A number of risk factors for COVID-19 infection, morbidity, and mortality are kn
 Recently, a study on COVID-19 patients in Whuhan and Shenzhen, China discovered associations between ABO blood types and infection [@doi:10.1101/2020.03.11.20031096].
 Their analysis compared blood groups between hospitalized COVID-19 patients and the general populations of Wuhan and Shenzhen City, as assessed by previously-published samples of healthy individuals.
 They found that the odds of testing positive for COVID-19 among A blood groups was increased and among O blood groups was decreased relative to the general population.
-Similarly, previous work has identified associations between ABO blood groups and a number of different infections or disease severity following infections, including SARS-CoV-1 [@doi:10.1001/jama.293.12.1450-c], _P. falciparum_ [@doi:10/db42m2], _H. pylori_[@doi:10.1126/science.8018146], Norwalk virus [@doi:10.1038/nm860], hepatitis B virus [@doi:10.1002/ijc.26376], and _N. gonorrhoeae_ [@doi:10.1093/infdis/133.3.329].
+Similarly, previous work has identified associations between ABO blood groups and a number of different infections or disease severity following infections, including SARS-CoV-1 [@doi:10.1001/jama.293.12.1450-c], _P. falciparum_ [@doi:10/db42m2], _H. pylori_ [@doi:10.1126/science.8018146], Norwalk virus [@doi:10.1038/nm860], hepatitis B virus [@doi:10.1002/ijc.26376], and _N. gonorrhoeae_ [@doi:10.1093/infdis/133.3.329].
 
 Within the United States, New York City has become a major center of the pandemic, with over 64,000 cases and over 2,400 deaths as of April 5, 2020 [@url:https://www1.nyc.gov/site/doh/covid/covid-19-data.page].
 We sought to replicate and extend the previous investigation into the association between COVID-19 and blood type using electronic health record data from the New York Presbyterian (NYP) hospital system in New York, USA.
@@ -149,8 +148,7 @@ We compared both ABO and ABO+Rh blood types, and we investigated three COVID-19 
 
 ## Methods
 
-We compared several combinations of blood group definition and COVID-19 outcomes.
-For blood groups, we considered either ABO alone or ABO+Rh.
+We compared several combinations of blood group definitions (ABO vs ABO+Rh) and COVID-19 outcomes.
 Outcomes were compared between four pairs of populations: COV+ vs COV-, COV+ vs general population (excluding those tested for COVID-19), COV+/Intubated vs COV+/Not intubated, and COV+/Deceased vs COV+/Alive.
 For each of the eight test conditions (2 blood group definitions and 4 outcome comparison population pairs), we performed a Pearson's Chi-squared test to test whether blood group distributions differ between the compared populations.
 Additionally, we compared each blood group against all others using a 2x2 contingency table to determine effect sizes for each blood group itself.
@@ -166,7 +164,7 @@ The distribution of blood groups in the general population was estimated using b
 
 We considered EHR data up to April 5, 2020.
 Our analyses were conducted using the R language, and we used the `meta` package [@doi:10/drbb] for meta-analysis.
-While our data from NYP are protected by HIPAA and cannot be released, we have released all code used for our analysis at <https://github.com/zietzm/abo_covid_analysis>.
+While our data from NYP are protected by HIPAA and cannot be released, we have made all code used for our analysis available at <https://github.com/zietzm/abo_covid_analysis>.
 The manuscript was written [openly on GitHub](https://github.com/zietzm/abo_covid) using the Manubot software [@doi:10.1371/journal.pcbi.1007128].
 
 
@@ -178,15 +176,15 @@ Of these, 682 were COV+ (positive in at least one COVID-19 test) and 877 were CO
 Among the COV+ individuals, 179 were intubated and 80 had died, while the remaining individuals had not been intubated and remained alive as of April 5, 2020.
 We found that 354 tested COV- individuals were intubated during the same time, though we did not include them in any analysis.
 
-We compared blood group (defined as ABO or ABO+Rh) between the four comparison cohorts and report counts in Table @tbl:combined_counts.
-For each comparison cohort pair, we performed chi-squared tests using both ABO and ABO+Rh blood types (Table @tbl:combined_chisq).
-Since there were no AB-negative individuals testing positive for COVID-19, we excluded AB-negative from all ABO+Rh analyses.
-Finally, we conducted individual tests of each blood type against all others for each of the COVID-19 outcomes we considered (Full data in Table @tbl:combined_fisher).
+For each comparison cohort pair, we performed chi-squared tests using both ABO and ABO+Rh blood types (Tables @tbl:combined_chisq, @tbl:combined_counts).
+Since there were no AB-negative individuals testing positive for COVID-19 and only 5 individuals testing negative, we excluded AB-negative from all ABO+Rh analyses.
+Finally, we conducted individual tests of each blood type against all others (within the same ABO vs ABO+Rh system) for each of the COVID-19 outcomes we considered (Full data in Table @tbl:combined_fisher).
 
 We found associations between COVID-19 status and both ABO (p=0.006) and ABO+Rh (p=0.031) blood groups in a comparison between individuals testing positive vs testing negative (Tables @tbl:combined_chisq, @tbl:pos_neg_fisher).
-A blood groups were associated with increased odds of testing positive for COVID-19 (OR 1.338, p=0.009), while O blood groups were associated with decreased odds of testing positive (OR 0.790, p=0.036).
+Blood groups A were associated with increased odds of testing positive for COVID-19 (OR 1.338, p=0.009), while O blood groups were associated with decreased odds of testing positive (OR 0.790, p=0.036).
 While few individuals with AB blood groups were included (21 COV+, 47 COV-), we also found AB blood groups to be associated with decreased odds of testing positive (OR 0.561, p=0.033).
 When we tested individual ABO+Rh blood groups against all others, we discovered that strong associations are only found in Rh positive blood groups (Tables @tbl:pos_neg_fisher, @tbl:combined_fisher).
+Finally, we compared the blood group distributions between all individuals tested for COVID-19 with the general population at NYP, finding insufficient evidence to conclude that tested individuals are not drawn from the general population at random (Chi-squared 3.8896, p=0.2736).
 
 
 |Blood group type |Comparison groups                    | Chi-squared |df |p-value |
@@ -217,7 +215,7 @@ Table: Summary of chi-squared tests for association between blood type and COVID
 |O-negative    |ABO+Rh        |1.034 |0.548 - 1.93    |1.000   |
 |O-positive    |ABO+Rh        |0.790 |0.642 - 0.971   |**0.024**   |
 
-Table: Summary of one-vs-rest analysis for a comparison of COV+ vs COV- individuals. Each test compares the listed blood group to all other blood groups (combined) between the COV+ and COV- individuals. P-values computed using Fisher's exact test. {#tbl:pos_neg_fisher}
+Table: Summary of one-vs-rest analysis for a comparison of COV+ vs COV- individuals. Each test compares the listed blood group to all other blood groups (combined) between the COV+ and COV- individuals. OR means odds ratio (COV+ vs COV-), and the 95% CI is a confidence interval on the OR. P-values computed using Fisher's exact test. {#tbl:pos_neg_fisher}
 
 ### Meta-analysis
 
@@ -239,7 +237,7 @@ Using the additional data from NYP, the pooled association between blood group B
 | AB | 1.2519 | 0.8384 - 1.8694 | 0.2721 |
 | O | 0.7252 | 0.5971 - 0.8807 | **0.0012** |
 
-Table: Meta-analysis associations for individual ABO blood groups in comparisons of COV+ vs general population using a random effects model. Each blood group was compared against all others using data from NYP, and Zhao et al. (Wuhan Jinyintan, Renmin Hospital in Wuhan, and Shenzhen Third People's Hospital). {#tbl:meta_odds}
+Table: Meta-analysis associations for individual ABO blood groups in comparisons of COV+ vs general population using a random effects model. Each blood group was compared against all others using data from NYP, and Zhao et al. (Wuhan Jinyintan, Renmin Hospital in Wuhan, and Shenzhen Third People's Hospital). OR refers to the pooled odds ratio (COV+ vs general population), and the 95% CI is a confidence interval on the OR. P-values are for the pooled association from the random effects model. {#tbl:meta_odds}
 
 
 ## Discussion
@@ -247,15 +245,17 @@ Table: Meta-analysis associations for individual ABO blood groups in comparisons
 We stratified by ABO+Rh blood groups in a comparison of COV+ vs COV- individuals and found that A and O associations were only supported by evidence among those with Rh positive blood groups.
 Negative Rh blood groups are less common in our data, representing only 9.25% of individuals, so the lack of evidence for association with negative blood types could be due to lower sample sizes.
 However, odds ratios for ABO groups A and O are less extreme than the associated ABO+Rh blood groups (A+, O+), and the corresponding negative blood groups (A-, O-) have (insignificant) odds in the opposite directions as their positive counterparts.
-Further work is needed to better understand the associations between Rh group and COVID-19.
+Further work is needed to better understand the associations between Rh negative blood groups and COVID-19.
 
 Our meta-analysis found large heterogeneity in blood group distributions between Wuhan, Shenzhen, and New York City, consistent with previous work indicating large differences in blood group distributions between the United States and China [@doi:10.1136/bmjopen-2017-018476; @doi:10.1111/j.1537-2995.2004.03338.x].
 Overall blood group differences introducted heterogeneity in our meta-analysis comparisons of blood group between COV+ individuals and the general population.
 Larger sample sizes of COVID-19 patients will allow afford a more detailed picture of the effects of blood type on COVID-19 susceptibility.
 
 The significant associations we found for blood type between COV+ and COV- individuals were far from significant in a comparison between COV+ and the general population at NYP.
-A possible explanation for this finding is that individuals tested for infection at NYP represent a more homogeneous population than the general patient population at NYP.
+A possible explanation for this finding is that individuals tested for infection at NYP represent a more homogeneous sub-population of patients at NYP.
 Increased homogeneity would strengthen the blood-group-COVID-19 association signal as it would reduce the influence of overall population differences in blood-type distribution.
+We did not find sufficient evidence to conclude that COVID-19-tested individuals have a significantly different blood group distribution than the general population at NYP, though we cannot rule out other differences between tested and general populations that could explain the difference in associations.
+Moreover, our meta-analysis using COV+ vs general population found significant associations between A, B, and O blood groups, and the NYP data received 20-30 percent weight for each comparison, indicating a large contribution to the pooled associations.
 Further work is needed to understand how the population of COVID-tested patients differs from the general population.
 
 We did not identify any significant relationships between blood group and intubation or death due to COVID-19.
@@ -362,6 +362,7 @@ Table: Counts of individuals by blood group and the three COVID-19 outcomes asse
 
 Table: Summary of all one-vs-rest analyses conducted. Each individual test compared the listed blood group with all other blood groups between the listed comparison groups. Shown are comparisons between each blood type and all three COVID-19 outcomes investigated. {#tbl:combined_fisher}
 
+
 |Blood group |NYP general population |NYP COV+    |Shenzhen general population |Shenzhen COV+ |Wuhan general population |Wuhan Jinyintan COV+ |Wuhan Renmin COV+ |
 |:-----------|:----------------------|:-----------|:---------------------------|:-------------|:------------------------|:--------------------|:-----------------|
 |A           |32.7% (35643)          |34.2% (233) |28.8% (6728)                |28.8% (82)    |32.2% (1188)             |37.7% (670)          |39.8% (45)        |
@@ -371,6 +372,7 @@ Table: Summary of all one-vs-rest analyses conducted. Each individual test compa
 
 Table: Distributions of blood groups between New York City data from the NYP EHR system and individuals from Shenzhen (cases from Shenzhen
 Third People's Hospital, controls from Shenzhen general population) and Wuhan (cases from Wuhan Jinyintan Hospital and Renmin Hospital of Wuhan University, controls from Wuhan general population). Shenzhen and Wuhan data reported by Zhao et al. [@doi:10.1101/2020.03.11.20031096]. {#tbl:abo_nyc_vs_china}
+
 
 | Blood group | Site | OR | 95% CI | %Weight |
 |:---------- |:----- |:----- |:----------- |:------- |
