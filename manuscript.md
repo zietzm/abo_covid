@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://zietzm.github.io/abo_covid/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://zietzm.github.io/abo_covid/v/10f087fe26a682e060cec6bbb02f3f29c0ce0efc/" />
+  <link rel="alternate" type="text/html" href="https://zietzm.github.io/abo_covid/v/8bbe6da6eaaae19b08009651b120eb684e60363b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://zietzm.github.io/abo_covid/v/10f087fe26a682e060cec6bbb02f3f29c0ce0efc/" />
+  <meta name="manubot_html_url_versioned" content="https://zietzm.github.io/abo_covid/v/8bbe6da6eaaae19b08009651b120eb684e60363b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://zietzm.github.io/abo_covid/v/10f087fe26a682e060cec6bbb02f3f29c0ce0efc/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://zietzm.github.io/abo_covid/v/8bbe6da6eaaae19b08009651b120eb684e60363b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -96,9 +96,9 @@ title: The effect of blood type on COVID-19 infection, intubation, and death
 
 <small><em>
 This manuscript
-([permalink](https://zietzm.github.io/abo_covid/v/10f087fe26a682e060cec6bbb02f3f29c0ce0efc/))
+([permalink](https://zietzm.github.io/abo_covid/v/8bbe6da6eaaae19b08009651b120eb684e60363b/))
 was automatically generated
-from [zietzm/abo_covid@10f087f](https://github.com/zietzm/abo_covid/tree/10f087fe26a682e060cec6bbb02f3f29c0ce0efc)
+from [zietzm/abo_covid@8bbe6da](https://github.com/zietzm/abo_covid/tree/8bbe6da6eaaae19b08009651b120eb684e60363b)
 on April 6, 2020.
 </em></small>
 
@@ -167,7 +167,7 @@ The distribution of blood groups in the general population was estimated using b
 We considered EHR data up to April 5, 2020.
 Our analyses were conducted using the R language, and we used the `meta` package [@doi:10/drbb] for meta-analysis.
 While our data from NYP are protected by HIPAA and cannot be released, we have released all code used for our analysis at <https://github.com/zietzm/abo_covid_analysis>.
-The manuscript was written [openly on GitHub](https://github.com/zietzm/abo_covid_analysis) using the Manubot software [@doi:10.1371/journal.pcbi.1007128].
+The manuscript was written [openly on GitHub](https://github.com/zietzm/abo_covid) using the Manubot software [@doi:10.1371/journal.pcbi.1007128].
 
 
 ## Results
@@ -254,7 +254,7 @@ Overall blood group differences introducted heterogeneity in our meta-analysis c
 Larger sample sizes of COVID-19 patients will allow afford a more detailed picture of the effects of blood type on COVID-19 susceptibility.
 
 The significant associations we found for blood type between COV+ and COV- individuals were far from significant in a comparison between COV+ and the general population at NYP.
-A possible explanation for this finding is that individuals tested for infection at NYP represent a more heterogeneous population with respect to blood type than the general patient population at NYP.
+A possible explanation for this finding is that individuals tested for infection at NYP represent a more homogeneous population than the general patient population at NYP.
 Increased homogeneity would strengthen the blood-group-COVID-19 association signal as it would reduce the influence of overall population differences in blood-type distribution.
 Further work is needed to understand how the population of COVID-tested patients differs from the general population.
 
@@ -375,19 +375,19 @@ Third People's Hospital, controls from Shenzhen general population) and Wuhan (c
 | Blood group | Site | OR | 95% CI | %Weight |
 |:---------- |:----- |:----- |:----------- |:------- |
 | A | NYP              | 1.0660 | 0.9095 - 1.2494 | 31.8 |
-| A | Wuhan Jinyintain | 1.2790 | 1.1364 - 1.4395 | 39.3 |
+| A | Wuhan Jinyintan | 1.2790 | 1.1364 - 1.4395 | 39.3 |
 | A | Wuhan Renmin     | 1.3959 | 0.9519 - 2.0472 | 10.3 |
 | A | Shenzhen         | 1.0001 | 0.7727 - 1.2945 | 18.6 |
 | B | NYP              | 1.1698 | 0.9573 - 1.4294 | 23.7 |
-| B | Wuhan Jinyintain | 1.0828 | 0.9516 - 1.2321 | 57.1 |
+| B | Wuhan Jinyintan | 1.0828 | 0.9516 - 1.2321 | 57.1 |
 | B | Wuhan Renmin     | 0.8566 | 0.5460 - 1.3440 |  4.7 |
 | B | Shenzhen         | 1.2233 | 0.9458 - 1.5822 | 14.4 |
 | AB | NYP              | 0.7230 | 0.4678 - 1.1176 | 23.5 |
-| AB | Wuhan Jinyintain | 1.1139 | 0.9201 - 1.3487 | 30.2 |
+| AB | Wuhan Jinyintan | 1.1139 | 0.9201 - 1.3487 | 30.2 |
 | AB | Wuhan Renmin     | 1.5297 | 0.8783 - 2.6643 | 20.0 |
 | AB | Shenzhen         | 2.0071 | 1.4266 - 2.8237 | 26.3 |
 | O | NYP              | 0.9084 | 0.7810 - 1.0566 | 31.1 |
-| O | Wuhan Jinyintain | 0.6799 | 0.5993 - 0.7715 | 32.9 |
+| O | Wuhan Jinyintan | 0.6799 | 0.5993 - 0.7715 | 32.9 |
 | O | Wuhan Renmin     | 0.6441 | 0.4179 - 0.9925 | 13.2 |
 | O | Shenzhen         | 0.6272 | 0.4842 - 0.8124 | 22.8 |
 
