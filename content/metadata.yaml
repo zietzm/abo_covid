@@ -16,5 +16,18 @@ authors:
     twitter: ZietzMichael
     email: michael.zietz@gmail.com
     affiliations:
-      - Department of Biomedical Informatics, Columbia University
+      - Department of Biomedical Informatics, Columbia University Irving Medical Center
     funders: NIH T15 LM007079
+  -
+    name: Nicholas P. Tatonetti
+    initials: NPT
+    orcid: 0000-0002-2700-2597
+    # twitter: nicktatonetti
+    email: nick.tatonetti@columbia.edu
+    affiliations:
+      - Department of Biomedical Informatics, Columbia University Irving Medical Center
+      - Department of Systems Biology, Columbia University Irving Medical Center
+      - Department of Medicine, Columbia University Irving Medical Center
+      - Institute for Genomic Medicine, Columbia University Irving Medical Center
+    # funders: Grant XXXXXXXX
+    symbol_str: "†"
