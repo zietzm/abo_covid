@@ -4,7 +4,7 @@ author-meta:
 - Nicholas P. Tatonetti
 bibliography:
 - content/manual-references.json
-date-meta: '2020-04-07'
+date-meta: '2020-04-08'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Testing the association between blood type and COVID-19 infection, intubation, and death" />
 
-  <meta name="dc.date" content="2020-04-07" />
+  <meta name="dc.date" content="2020-04-08" />
 
-  <meta name="citation_publication_date" content="2020-04-07" />
+  <meta name="citation_publication_date" content="2020-04-08" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -71,11 +71,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://zietzm.github.io/abo_covid/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://zietzm.github.io/abo_covid/v/5f6586b258311f7b2c93763a07e865c8a870ae48/" />
+  <link rel="alternate" type="text/html" href="https://zietzm.github.io/abo_covid/v/749e8cf64478e2bc8f7582d44abea33be64f16de/" />
 
-  <meta name="manubot_html_url_versioned" content="https://zietzm.github.io/abo_covid/v/5f6586b258311f7b2c93763a07e865c8a870ae48/" />
+  <meta name="manubot_html_url_versioned" content="https://zietzm.github.io/abo_covid/v/749e8cf64478e2bc8f7582d44abea33be64f16de/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://zietzm.github.io/abo_covid/v/5f6586b258311f7b2c93763a07e865c8a870ae48/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://zietzm.github.io/abo_covid/v/749e8cf64478e2bc8f7582d44abea33be64f16de/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -109,10 +109,10 @@ title: Testing the association between blood type and COVID-19 infection, intuba
 
 <small><em>
 This manuscript
-([permalink](https://zietzm.github.io/abo_covid/v/5f6586b258311f7b2c93763a07e865c8a870ae48/))
+([permalink](https://zietzm.github.io/abo_covid/v/749e8cf64478e2bc8f7582d44abea33be64f16de/))
 was automatically generated
-from [zietzm/abo_covid@5f6586b](https://github.com/zietzm/abo_covid/tree/5f6586b258311f7b2c93763a07e865c8a870ae48)
-on April 7, 2020.
+from [zietzm/abo_covid@749e8cf](https://github.com/zietzm/abo_covid/tree/749e8cf64478e2bc8f7582d44abea33be64f16de)
+on April 8, 2020.
 </em></small>
 
 ## Authors
@@ -224,7 +224,7 @@ Table @tbl:summary_demogs gives a summary of the cohort we considered.
 |**O**       |761 (48.8%) |356 (46.8%) |55.0       |312 (41%)   |74 (23.7%)     |36 (11.5%) |354 (46.5%)  |419 (55.1%)             |404 (53.1%)          |227 (29.8%) |101 (13.3%) |52406 (48.1%)      |
 |O-          |47 (3%)     |23 (48.9%)  |58.2       |21 (44.7%)  |4 (19%)        |0 (0%)     |28 (59.6%)   |29 (61.7%)              |26 (55.3%)           |14 (29.8%)  |2 (4.3%)    |4808 (4.4%)        |
 |O+          |714 (45.8%) |333 (46.6%) |54.8       |291 (40.8%) |70 (24.1%)     |36 (12.4%) |326 (45.7%)  |390 (54.6%)             |378 (52.9%)          |213 (29.8%) |99 (13.9%)  |47598 (43.7%)      |
-|**TOTAL**   |1559 (100%) |716 (45.9%) |56.8       |682 (43.7%) |179 (26.2%)    |80 (11.7%) |724 (46.4%)  |878 (56.3%)             |848 (54.4%)          |445 (28.5%) |188 (12.1%) |108860 (100%)      |
+|**Σ**   |1559 (100%) |716 (45.9%) |56.8       |682 (43.7%) |179 (26.2%)    |80 (11.7%) |724 (46.4%)  |878 (56.3%)             |848 (54.4%)          |445 (28.5%) |188 (12.1%) |108860 (100%)      |
 
 Table: Summary demographics for SARS-CoV-2-tested individuals at NYP/CUIMC, stratified by blood group (BG). N is the number of individuals having the given blood type who have a recorded test (positive or negative) for SARS-CoV-2, and reports percentages relative to all blood groups. Rh-stratified blood groups are individuals from the ABO blood groups (eg. for N, A-negative + A-positive = A). Med. age gives the median age within each group. COV+ and COV- give percentages relative to all tested individuals for that blood group. COV+/Intubated (intub.) and COV+/Died report percentages relative to COV+ individuals. Risk factors (hypertension (HTN), cardiovascular (CV) diseases mellitus (DM), respiratory (resp) diseases, diabetes, overweight status (OW)) are reported as percentages relative to all tested individuals of that blood group. The general population (gen) column reports counts and percentages by blood group relative to the non-SARS-CoV-2-tested individuals from NYP/CUIMC with recorded blood type. The final row (Σ) gives combined results without stratification by blood type. {#tbl:summary_demogs}
 
