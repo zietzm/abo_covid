@@ -19,6 +19,13 @@ authors:
       - Department of Biomedical Informatics, Columbia University Irving Medical Center
     funders: NIH T15 LM007079
   -
+    name: Jason Zucker
+    initials: JZ
+    orcid: 0000-0001-6987-6412
+    affiliations:
+      - Department of Medicine, Columbia University Irving Medical Center
+    # funders: NIH T15 LM007079
+  -
     name: Nicholas P. Tatonetti
     initials: NPT
     orcid: 0000-0002-2700-2597
