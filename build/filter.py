@@ -1,3 +1,4 @@
+#!/Users/zietzm/miniconda3/envs/manubot/bin/python3.7
 """
 Panflute filter to allow file includes
 

@@ -1,5 +1,5 @@
 # Pandoc --defaults shared between Manubot output formats.
-from: markdown
+from: markdown+raw_tex
 input-file: output/manuscript.md
 filters:
 - build/filter.py
